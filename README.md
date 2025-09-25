@@ -10,6 +10,17 @@
   - Subscription plan counts
   - Monthly spend distribution (check anomalies >200)
 
+Key insights from Movies and Users data:
+- Most movies have IMDb ratings between 5–8.
+- Higher budgets generally lead to higher revenues, but with exceptions (low-budget high-revenue films).
+- Adventure, War, and Action are the most common genres.
+- User base is concentrated in the 20–40 age range.
+- Standard and Premium are the most popular subscription plans.
+- Most users spend $10–20 monthly, with a few high-value outliers.
+
+#### Visualization Results
+![EDA Results](images/eda_overview.png)
+
 ### 2. Clustering (KMeans)
 - Features: `imdb_rating`, `duration_minutes`, (`budget`, `revenue` where available)
 - Apply KMeans (choose optimal K via elbow method)
