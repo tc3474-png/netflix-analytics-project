@@ -25,6 +25,28 @@ Key insights from Movies and Users data:
 - Features: `imdb_rating`, `duration_minutes`, (`budget`, `revenue` where available)
 - Apply KMeans (choose optimal K via elbow method)
 - Visualize clusters with PCA scatter plot
+### Clustering (KMeans)
+
+We clustered movies using `imdb_rating`, `duration_minutes`, `production_budget`, and `box_office_revenue`.
+After preprocessing (median imputation, log transform, scaling), KMeans suggested **K=2–3 clusters**.
+
+#### Results
+- **Elbow Method:** Optimal K ≈ 3  
+- **Silhouette Score:** Best K ≈ 2  
+- **Interpretation:**
+  - Cluster 0 — Blockbusters (high budget, high revenue)
+  - Cluster 1 — Low budget / low revenue
+  - Cluster 2 — Mid-tier or indie films
+
+#### Visualizations
+Elbow curve:  
+![Elbow Method](https://github.com/tc3474-png/netflix-analytics-project/blob/main/images/kmeans_elbow.png?raw=true)
+
+Silhouette score:  
+![Silhouette Score](https://github.com/tc3474-png/netflix-analytics-project/blob/main/images/kmeans_silhouette.png?raw=true)
+
+Cluster visualization (PCA projection):  
+![KMeans Clusters](https://github.com/tc3474-png/netflix-analytics-project/blob/main/images/kmeans_clusters.png?raw=true)
 
 ### 3. Regression
 - **Linear Regression**
