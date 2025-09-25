@@ -55,7 +55,8 @@ Cluster visualization (PCA projection):
 - **Logistic Regression**
   - Target: High-rated (IMDb ≥ 7) vs Low-rated
   - Features: `production_budget`, `duration_minutes`
-  ### Regression Results
+ 
+### Regression Results
 
 **Linear Regression (predict revenue)**  
 - Target: `box_office_revenue` (log)  
@@ -71,6 +72,8 @@ Residuals (log space):
 Standardized coefficients:  
 ![LinReg Coefs](https://github.com/tc3474-png/netflix-analytics-project/blob/main/images/linreg_coefficients.png?raw=true)
 
+---
+
 **Logistic Regression (high-rated? IMDb ≥ 7)**  
 - Features: `production_budget_log`, `duration_minutes`  
 - Metrics: precision, recall, F1, ROC-AUC, Average Precision
@@ -83,7 +86,6 @@ Precision-Recall Curve:
 
 Coefficients:  
 ![LogReg Coefs](https://github.com/tc3474-png/netflix-analytics-project/blob/main/images/logreg_coefficients.png?raw=true)
-
 ### 4. Results & Insights
 - Key findings from EDA
 - Clustering interpretation (e.g., blockbusters vs indie films)
