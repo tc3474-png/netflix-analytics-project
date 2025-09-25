@@ -19,7 +19,7 @@ Key insights from Movies and Users data:
 - Most users spend $10–20 monthly, with a few high-value outliers.
 
 #### Visualization Results
-![EDA Results](images/eda_overview.png)
+![EDA Results](https://github.com/tc3474-png/netflix-analytics-project/blob/main/images/eda_overview.png?raw=true)
 
 ### 2. Clustering (KMeans)
 - Features: `imdb_rating`, `duration_minutes`, (`budget`, `revenue` where available)
