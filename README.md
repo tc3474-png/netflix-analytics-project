@@ -87,6 +87,18 @@ Precision-Recall Curve:
 Coefficients:  
 ![LogReg Coefs](https://raw.githubusercontent.com/tc3474-png/netflix-analytics-project/main/images/logreg_coefficients.png)
 ### 4. Results & Insights
-- Key findings from EDA
-- Clustering interpretation (e.g., blockbusters vs indie films)
-- Regression coefficients and implications
+
+## Key Findings & Insights
+
+- **EDA**
+  - IMDb ratings mostly between 5–8
+  - Budgets strongly correlate with revenues, but with notable outliers (e.g., high-budget flops, low-budget cult hits)
+
+- **Clustering**
+  - Blockbusters: high budget, high revenue
+  - Indie hits: low budget, smaller revenue, but higher ratings
+  - Mainstream average: middle in all aspects
+
+- **Regression**
+  - Linear Regression: Budget is the strongest driver of revenue; ratings also contribute positively
+  - Logistic Regression: Longer duration slightly increases chance of being a "high-rated" movie (≥7 on IMDb); budget is less predictive
