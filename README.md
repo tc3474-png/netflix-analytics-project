@@ -64,13 +64,13 @@ Cluster visualization (PCA projection):
 - Metrics: RMSE (USD), R² (log target)
 
 Predicted vs Actual (USD):  
-![LinReg Pred vs Actual](https://github.com/tc3474-png/netflix-analytics-project/blob/main/images/linreg_pred_vs_actual.png?raw=true)
+![LinReg Pred vs Actual](https://raw.githubusercontent.com/tc3474-png/netflix-analytics-project/main/images/linreg_pred_vs_actual.png)
 
 Residuals (log space):  
-![LinReg Residuals](https://github.com/tc3474-png/netflix-analytics-project/blob/main/images/linreg_residuals_hist.png?raw=true)
+![LinReg Residuals](https://raw.githubusercontent.com/tc3474-png/netflix-analytics-project/main/images/linreg_residuals_hist.png)
 
 Standardized coefficients:  
-![LinReg Coefs](https://github.com/tc3474-png/netflix-analytics-project/blob/main/images/linreg_coefficients.png?raw=true)
+![LinReg Coefs](https://raw.githubusercontent.com/tc3474-png/netflix-analytics-project/main/images/linreg_coefficients.png)
 
 ---
 
@@ -79,13 +79,13 @@ Standardized coefficients:
 - Metrics: precision, recall, F1, ROC-AUC, Average Precision
 
 ROC Curve:  
-![ROC](https://github.com/tc3474-png/netflix-analytics-project/blob/main/images/logreg_roc.png?raw=true)
+![ROC](https://raw.githubusercontent.com/tc3474-png/netflix-analytics-project/main/images/logreg_roc.png)
 
 Precision-Recall Curve:  
-![PR](https://github.com/tc3474-png/netflix-analytics-project/blob/main/images/logreg_pr.png?raw=true)
+![PR](https://raw.githubusercontent.com/tc3474-png/netflix-analytics-project/main/images/logreg_pr.png)
 
 Coefficients:  
-![LogReg Coefs](https://github.com/tc3474-png/netflix-analytics-project/blob/main/images/logreg_coefficients.png?raw=true)
+![LogReg Coefs](https://raw.githubusercontent.com/tc3474-png/netflix-analytics-project/main/images/logreg_coefficients.png)
 ### 4. Results & Insights
 - Key findings from EDA
 - Clustering interpretation (e.g., blockbusters vs indie films)
