@@ -55,6 +55,34 @@ Cluster visualization (PCA projection):
 - **Logistic Regression**
   - Target: High-rated (IMDb ≥ 7) vs Low-rated
   - Features: `production_budget`, `duration_minutes`
+  ### Regression Results
+
+**Linear Regression (predict revenue)**  
+- Target: `box_office_revenue` (log)  
+- Features: `production_budget_log`, `imdb_rating`, `duration_minutes`  
+- Metrics: RMSE (USD), R² (log target)
+
+Predicted vs Actual (USD):  
+![LinReg Pred vs Actual](https://github.com/tc3474-png/netflix-analytics-project/blob/main/images/linreg_pred_vs_actual.png?raw=true)
+
+Residuals (log space):  
+![LinReg Residuals](https://github.com/tc3474-png/netflix-analytics-project/blob/main/images/linreg_residuals_hist.png?raw=true)
+
+Standardized coefficients:  
+![LinReg Coefs](https://github.com/tc3474-png/netflix-analytics-project/blob/main/images/linreg_coefficients.png?raw=true)
+
+**Logistic Regression (high-rated? IMDb ≥ 7)**  
+- Features: `production_budget_log`, `duration_minutes`  
+- Metrics: precision, recall, F1, ROC-AUC, Average Precision
+
+ROC Curve:  
+![ROC](https://github.com/tc3474-png/netflix-analytics-project/blob/main/images/logreg_roc.png?raw=true)
+
+Precision-Recall Curve:  
+![PR](https://github.com/tc3474-png/netflix-analytics-project/blob/main/images/logreg_pr.png?raw=true)
+
+Coefficients:  
+![LogReg Coefs](https://github.com/tc3474-png/netflix-analytics-project/blob/main/images/logreg_coefficients.png?raw=true)
 
 ### 4. Results & Insights
 - Key findings from EDA
